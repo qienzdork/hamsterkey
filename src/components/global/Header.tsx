@@ -11,10 +11,10 @@ export default function Header() {
     <header className="flex max-lg:flex-col items-center justify-between gap-y-4">
       <div className="lg:flex hidden items-center w-[250px]">
         <div className="rounded-full flex items-center w-full p-2 border border-border gap-2">
-          <Link href={"https://x.com/mfraiyan"} target="_blank" className={buttonClass.icon}>
+          <Link href={"https://x.com/qienz502"} target="_blank" className={buttonClass.icon}>
             <FaXTwitter size={32} />
           </Link>
-          <Link href={"https://t.me/pengaruhbesar"} target="_blank" className={buttonClass.icon}>
+          <Link href={"https://t.me/airdropjatake"} target="_blank" className={buttonClass.icon}>
             <FaTelegramPlane size={32} />
           </Link>
           <p className="text-xl font-medium  text-foreground/50">
@@ -39,7 +39,7 @@ export default function Header() {
         </div>
       </div>
       <div className="lg:flex hidden items-center w-[250px]">
-        <Link href={"https://linktr.ee/muhammadfathurraiyan"} target="_blank" className={`${buttonClass.default} w-full gap-6`}>
+        <Link href={"https://t.me/airdropjatake"} target="_blank" className={`${buttonClass.default} w-full gap-6`}>
           Support us! <PiCoffee size={32} />
         </Link>
       </div>
